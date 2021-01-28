@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap');
+
+body {
+    text-align: center;
+    background: #6ABFEF;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+#form-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.input-col {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+input[type=number] {
+    text-align: center;
+    background-color: #eeeeee;
+    height: 1.5rem;
+    width: 8rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem; 
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#submit {
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    background-color: #6ABFEF;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .6rem;
+    transition: background-color 150ms linear;
+}
+
+#submit:hover {
+    background-color: #73ccff;
+    transition: background-color 250ms linear;
+
+}
+
+
+.button-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+
+}
+
+.button-col {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#color-picker {
+    padding: .6666rem;
+    outline: 0 none !important;
+    border-radius: 5px;
+}
+
+.grid {
+    background: #FFF;
+    margin-top: 15px;
+    transform: translateY(15px);
+    box-shadow: 0px 2px 5px black;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+#pixel-canvas {
+    animation: fadeIn 250ms linear;
+    
+}
+
+
+
+.container {
+    background: #FFF;
+    margin: -1rem;
+    transform: translateY(-5px);
+    box-shadow: 1px 2px 5px black;
+}
+
+.btn {
+    text-align: center;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    font-size: 1.5rem;
+    transition: background-color 150ms linear;
+}
+
+.btn:hover {
+    background-color: #d8d8d8;
+    transition: background-color 250ms linear;
+}
+

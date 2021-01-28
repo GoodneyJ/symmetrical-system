@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = 'container'>
+        <h1>Pixel Art Maker</h1>
+        <div id="form-container">
+            <form id="sizePicker">
+
+
+                <div class="input-col">
+                    <p class="input-p">Width: </p>
+                    <input type="number" id="inputWidth" name="width" min="1" value="1">
+                </div>
+
+                <div class="input-col">
+                    <p class="input-p">Height:</p>
+                    <input type="number" id="inputHeight" name="height" min="1" value="1">
+                </div>
+
+                <input type="submit" id="submit">
+            </form>
+
+            <div class="button-container">
+                <div class="button-col">
+                    <input type="color" id="color-picker" class = 'btn colorBtn'>
+                    <p class='pick-a-color'>color</p>
+                </div>
+                <div class="button-col">
+                    <button class = 'btn reset' onclick="sizePicker()"><i class="far fa-trash-alt"></i></button>
+                    <p>clear</p>
+                </div>
+            </div>
+        </div>
+    
+        
+
+    
+
+        <table id="pixel-canvas"></table>
+        <script src="https://kit.fontawesome.com/51c0611afb.js"></script>
+        <script src="designs.js"></script>
+    </div>
+</body>
+</html>
